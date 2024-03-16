@@ -12,7 +12,7 @@ function main(currentTime){
 
     if(gameOver){
         if(confirm("Do you want to play?")){
-            window.location='/';
+            window.location.href='./';
         }
          return 
     }
